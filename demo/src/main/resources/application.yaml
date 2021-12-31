@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/bira_project_onboarding"
+    username: ENC(bRnLjqwgzoFzWiFir2dZQBsu9sSvGGhMXQNR/5BkmYiD1vnblg+yIOBK2a4HmVFT)
+    password: ENC(bRnLjqwgzoFzWiFir2dZQBsu9sSvGGhMXQNR/5BkmYiD1vnblg+yIOBK2a4HmVFT)
+  jpa:
+    hibernate:
+      ddl-auto: "update"
+
+server:
+  ssl:
+    key-alias: "examples"
+    key-store-type: "jks"
+    key-password: ENC(SmZ9H7yY0lHo0zOPlc/HXcxQQ7P7F/1fC37X0/Gmp76pUb8IqudauWqTSdGwh3A+)
+    key-store: "classpath:examples.jks"
+    key-store-password: ENC(SmZ9H7yY0lHo0zOPlc/HXcxQQ7P7F/1fC37X0/Gmp76pUb8IqudauWqTSdGwh3A+)
+  port: 8843
